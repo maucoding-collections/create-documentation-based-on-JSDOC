@@ -1,0 +1,17 @@
+{
+  "name": "create-documentation-based-on-JSDOC",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:idmore/create-documentation-based-on-JSDOC.git",
+  "author": "yussan",
+  "license": "MIT",
+  "dependencies": {
+    "jsdoc": "^3.6.3"
+  },
+  "scripts": {
+    "docs": "jsdoc -c jsdoc.json src/*.js"
+  },
+  "devDependencies": {
+    "jsdoc-to-markdown": "^5.0.0"
+  }
+}
